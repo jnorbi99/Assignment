@@ -1,0 +1,88 @@
+//Use 16 coloumns grid instead 8
+$feature-flags: (
+  grid-columns-16: true,
+);
+
+//Import grid
+@import 'carbon-components/scss/globals/grid/grid';
+
+//Paragraph font settings
+p {
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
+// Button settings
+.bx--btn--secondary {
+  margin-left: 1rem;
+}
+
+.bx--btn {
+  color: #f4f4f4;
+}
+
+.bx--btn-set .bx--btn {
+  width: 100%;
+  max-width: 15rem;
+}
+
+.bx--btn-set {
+  margin-bottom: $spacing-11;
+}
+
+//Spaces
+.largeSpace {
+  margin-bottom: $spacing-09;
+}
+
+.smallSpace {
+  margin-bottom: $spacing-07;
+}
+
+.smallSpaceBefore {
+  margin-top: $spacing-07;
+}
+
+//Remove the conent padding
+.bx--content {
+  padding: 0rem;
+  margin-top: 4rem;
+}
+
+//Gray background
+.mainContent {
+  background-color: #f4f4f4;
+}
+
+//Remove the frid padding
+.bx--grid {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+// For the white inputFields
+.bx--text-input {
+  background-color: #ffffff;
+}
+
+.bx--dropdown {
+  background-color: #ffffff;
+}
+
+.bx--date-picker__input {
+  background-color: #ffffff;
+}
+
+//Wide datePicker
+.bx--date-picker__input {
+  width: 100%;
+  max-width: 31rem;
+  position: sticky;
+  margin-bottom: 0rem;
+}
+
+//DatePicker icon settings
+.datePicker {
+  width: 100%;
+  max-width: 31rem;
+}
